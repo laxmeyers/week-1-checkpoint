@@ -28,70 +28,106 @@
     <link rel="stylesheet" href="style.css" />
 
     <style>
-        body.debug .container,
-        body.debug .container-fluid {
-          outline: 2px double blue;
-          outline-offset: -2px;
-        }
-    
-        body.debug .row {
-          outline: 2px dashed red;
-          outline-offset: -2px;
-        }
-    
-        body.debug [class*="col-"] {
-          outline: 2px dotted forestgreen;
-          outline-offset: -3px;
-        }
-      </style>
+      body.debug .container,
+      body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+      }
+
+      body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+      }
+
+      body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+      }
+    </style>
 
     <title>Boardgame Figma Copy</title>
   </head>
 
-  <body class="debug">
-
+  <body class="debg">
     <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 px-5">
-                    <h1><i class="mdi mdi-controller-off"></i>Unplugged Games</h1>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 px-5">
+            <h1><i class="mdi mdi-controller-off"></i>Unplugged Games</h1>
+          </div>
         </div>
+      </div>
     </header>
 
     <main>
-        <div class="container-fluid">
-            <div class="row hero align-items-center">
-                <div class="col-4 ms-5">
-                    <h3 class="subtle text-center">Great Deals</h3>
-                    <form class="bg-light rounded row">
-                        <h5 class="color-main">Subscribe</h5>
-                        <div class="mb-3 col-12">
-                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NAME">
-                        </div>
-                        <div class="mb-3 col-12">
-                          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="EMAIL">
-                        </div>
-                        <div class="mb-3 col-8">
-                            <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="PHONE"> 
-                        </div>
-                        <div class="col-4">
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="EXT">
-                        </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">I agree to emails on deals, discounts, and information</label>
-                        </div>
-                        <button type="submit reset" class="btn btn-primary">Submit</button>
-                      </form>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row hero align-items-center">
+          <div class="col-4 ps-5">
+            <h3 class="subtle text-center">Great Deals</h3>
+            <form class="bg-light rounded row">
+              <h5 class="color-main">Subscribe</h5>
+              <div class="mb-3 col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="NAME"
+                />
+              </div>
+              <div class="mb-3 col-12">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="EMAIL"
+                />
+              </div>
+              <div class="mb-3 col-8">
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="PHONE"
+                />
+              </div>
+              <div class="col-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="EXT"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >I agree to emails on deals, discounts, and information</label
+                >
+              </div>
+              <button type="submit reset" class="btn btn-primary">
+                Submit
+              </button>
+            </form>
+          </div>
+
+          <div class="col-5 offset-1 shift-up border-side ps-4 glass-card text-shadow text-color fs-5">
+            <h3>Boardgames Rule</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quidem
+                voluptatem, debitis perferendis voluptate laudantium expedita vitae
+                ipsa! Cum ea molestias error maiores laboriosam odit dicta
+                dignissimos quibusdam ipsam aperiam!
+            </p>
+          </div>
         </div>
+      </div>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>

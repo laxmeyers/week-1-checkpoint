@@ -1,5 +1,6 @@
 :root{
     --main: #07AB80;
+    --second: #7ff7d7;
 }
 
 header{
@@ -8,6 +9,11 @@ header{
 
 form{
     padding: 1em;
+}
+
+p{
+    padding: 0;
+    margin: 0;
 }
 
 .hero{
@@ -23,4 +29,24 @@ form{
 .subtle{
     color: #3e3939;
     text-shadow: 1px 1px 2px #3e3939;
+}
+
+.shift-up{
+    transform: translatey(-5em);
+}
+
+.border-side{
+    border-left: 1em solid var(--main);
+}
+
+.glass-card{
+    background-color: rgba(0, 0, 0, 0.663);
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 2px var(--second);
+}
+
+.text-color{
+    color: var(--second);
 }
