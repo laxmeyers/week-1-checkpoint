@@ -22,6 +22,10 @@ p{
 
 }
 
+.background-main{
+    background-color: var(--main);
+}
+
 .color-main{
     color: var(--main);
 }
@@ -33,6 +37,10 @@ p{
 
 .shift-up{
     transform: translatey(-5em);
+}
+
+.shift-down{
+    transform: translateY(6em);
 }
 
 .border-side{
@@ -50,3 +58,4 @@ p{
 .text-color{
     color: var(--second);
 }
+
